@@ -2,7 +2,7 @@
 """
 Created on Sun Jan  2 14:15:22 2022
 
-@author: Administrator
+@author: Sidharth
 """
 
 import cv2
