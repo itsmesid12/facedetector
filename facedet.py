@@ -35,7 +35,7 @@ def opencam(d):
             for(x,y,w,h) in faces:
                 cv2.rectangle(frame1,(x,y),(x+w,y+h),(0,255,0),2)
             
-            #showing the frame with face detection
+            #showing the frame with detected face 
             cv2.imshow('Facedet',frame1)
             cv2.waitKey(1)
             
