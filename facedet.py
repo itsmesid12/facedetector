@@ -43,7 +43,7 @@ def opencam(d):
             if cv2.getWindowProperty('Facedet', cv2.WND_PROP_VISIBLE) <1:
                 break
     except KeyboardInterrupt:
-        #It can also be stopped using Ctrl + C.
+        #It can also be interrupted using Ctrl + C.
         cap.release()
         cv2.destroyAllWindows()
 
