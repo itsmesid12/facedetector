@@ -31,7 +31,7 @@ def opencam(d):
             #Help in finding the face using detectmultiscale
             faces = face_cascade.detectMultiScale(frame1,1.1,4)
             
-            #Highlighting the face with rectangle of color(0,255,0) that is green rectangle. Colours can be changed by altering these (0-255,0-255,0-255). 
+            #Highlighting the face with rectangle of color(0,255,0) that is green. Colours can be changed by altering these (0-255,0-255,0-255). 
             for(x,y,w,h) in faces:
                 cv2.rectangle(frame1,(x,y),(x+w,y+h),(0,255,0),2)
             
